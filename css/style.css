@@ -1,0 +1,52 @@
+@font-face {
+ 	font-family: 'bitline';
+  	src: url('../fonts/1bitline15(srb).ttf') format('truetype');
+ 	font-weight: normal;
+ 	font-style: normal;
+}
+@font-face {
+ 	font-family: 'minecr';
+  	src: url('../fonts/1Minecraftia-Regular.ttf') format('truetype');
+ 	font-weight: normal;
+ 	font-style: normal;
+}
+@font-face {
+ 	font-family: 'glitch';
+  	src: url('../fonts/1glitch-progressive.ttf') format('truetype');
+}
+
+body {
+  font-family: minecr;
+  font-size: 16px;
+  color: #fafafa;
+}
+
+/* Überschriften */
+h1, h2, h3 {
+	font-family: bitline;
+  	color: #fff;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
